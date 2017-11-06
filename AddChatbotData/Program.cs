@@ -10,6 +10,7 @@ namespace AddChatbotData
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hey");
         }
     }
 }
