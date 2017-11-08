@@ -26,7 +26,7 @@ namespace AddChatbotData
 
                     connection.Open();
                     StringBuilder sb = new StringBuilder();
-                    sb.Append("SELECT *");
+                    sb.Append("SELECT * ");
                     sb.Append("FROM HNAEvents");
                     String sql = sb.ToString();
 
