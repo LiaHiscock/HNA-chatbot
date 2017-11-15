@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.IO;
 
 namespace AddChatbotData
 {
@@ -18,6 +19,7 @@ namespace AddChatbotData
                 builder.UserID = "hna-admin";
                 builder.Password = "CharityAndWisdom1";
                 builder.InitialCatalog = "hna-db";
+                String path = @".\data\data.csv";
 
                 using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
                 {
@@ -26,18 +28,21 @@ namespace AddChatbotData
 
                     connection.Open();
                     StringBuilder sb = new StringBuilder();
-                    sb.Append("SELECT * ");
-                    sb.Append("FROM HNAEvents");
-                    String sql = sb.ToString();
+                    String sql = "INSERT INTO HNAEvents";
 
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
-                        using (SqlDataReader reader = command.ExecuteReader())
+
+                        using (var reader = new StreamReader(path))
                         {
-                            while (reader.Read())
+                            while (!reader.EndOfStream)
                             {
-                                Console.WriteLine("{0}");
+                                var line = reader.ReadLine().Trim();
+                                var values = line.Split(',');
+                                Console.WriteLine(values[0]);
+
                             }
+                            Console.ReadLine();
                         }
                     }
                 }
@@ -46,9 +51,6 @@ namespace AddChatbotData
             {
                 Console.WriteLine(e.ToString());
             }
-            Console.ReadLine();
-
-
         }
     }
 }
