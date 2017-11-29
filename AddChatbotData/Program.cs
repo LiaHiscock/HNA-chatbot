@@ -42,7 +42,9 @@ namespace AddChatbotData
                             String sql = "INSERT INTO HNAEvents(EventId, Name, DateTime, Location, Type, ExtraNotes) VALUES(1, 'Deck the Dome', '2017-10-28 08:00', 'holy names', 'auction', 'none')";
 
                             SqlCommand command = new SqlCommand(sql, connection);
-                            Sql
+                            var rowsAffected = command.ExecuteNonQuery();
+                            Console.WriteLine(rowsAffected);
+                            
                         }
                     }                    
                 }
