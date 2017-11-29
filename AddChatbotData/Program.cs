@@ -28,23 +28,23 @@ namespace AddChatbotData
 
                     connection.Open();
                     StringBuilder sb = new StringBuilder();
-                    String sql = "INSERT INTO HNAEvents";
 
-                    using (SqlCommand command = new SqlCommand(sql, connection))
+                    using (var reader = new StreamReader(path))
                     {
-
-                        using (var reader = new StreamReader(path))
+                        while (!reader.EndOfStream)
                         {
-                            while (!reader.EndOfStream)
-                            {
-                                var line = reader.ReadLine().Trim();
-                                var values = line.Split(',');
-                                Console.WriteLine(values[0]);
+                            var line = reader.ReadLine().Trim();
+                            var values = line.Split(',');
 
-                            }
-                            Console.ReadLine();
+                            //String sql = "INSERT INTO HNAEvents(EventId, Name, DateTime, location, notes) VALUES (" +
+                            //values[0] + "," + values[1] + "," + values[2] + "," + values[3] + "," + values[4] + ")";
+
+                            String sql = "INSERT INTO HNAEvents(EventId, Name, DateTime, Location, Type, ExtraNotes) VALUES(1, 'Deck the Dome', '2017-10-28 08:00', 'holy names', 'auction', 'none')";
+
+                            SqlCommand command = new SqlCommand(sql, connection);
+                            Sql
                         }
-                    }
+                    }                    
                 }
             }
             catch (SqlException e)
