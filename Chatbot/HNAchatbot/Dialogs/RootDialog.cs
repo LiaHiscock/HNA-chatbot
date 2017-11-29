@@ -23,7 +23,11 @@ namespace HNAchatbot.Dialogs
             int length = (activity.Text ?? string.Empty).Length;
 
             // return our reply to the user
-            await context.PostAsync($"You sent {activity.Text} which was {length} characters");
+            string WelcomeText = "Welcome to the HNA Chatbot!\nSome things you can ask me are:\nWhat's the schedule today?" +
+                "\nWhat's the lunch menu today?\nWhat sports games are today?\nAre there any dances coming up?";
+            await context.PostAsync(WelcomeText);
+
+            //await context.PostAsync($"You sent {activity.Text} which was {length} characters");
 
             context.Wait(MessageReceivedAsync);
         }
