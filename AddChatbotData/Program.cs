@@ -36,10 +36,9 @@ namespace AddChatbotData
                             var line = reader.ReadLine().Trim();
                             var values = line.Split(',');
 
-                            //String sql = "INSERT INTO HNAEvents(EventId, Name, DateTime, location, notes) VALUES (" +
-                            //values[0] + "," + values[1] + "," + values[2] + "," + values[3] + "," + values[4] + ")";
+                            String sql = "INSERT INTO HNAEvents(EventId, Name, DateTime, Location, Type, ExtraNotes) VALUES ('" +  values[0] + "','" + values[1] + "','" + values[2] + "','" + values[3] + "','" + values[4] + "','" + values[5] + "')";
 
-                            String sql = "INSERT INTO HNAEvents(EventId, Name, DateTime, Location, Type, ExtraNotes) VALUES(1, 'Deck the Dome', '2017-10-28 08:00', 'holy names', 'auction', 'none')";
+                            //String sql = "INSERT INTO HNAEvents(EventId, Name, DateTime, Location, Type, ExtraNotes) VALUES(1, 'Deck the Dome', '2017-10-28 08:00', 'holy names', 'auction', 'none')";
 
                             SqlCommand command = new SqlCommand(sql, connection);
                             var rowsAffected = command.ExecuteNonQuery();
