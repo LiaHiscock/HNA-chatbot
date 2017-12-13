@@ -36,13 +36,20 @@ namespace AddChatbotData
                             var line = reader.ReadLine().Trim();
                             var values = line.Split(',');
 
-                            String sql = "INSERT INTO HNAEvents(EventId, Name, DateTime, Location, Type, ExtraNotes) VALUES ('" +  values[0] + "','" + values[1] + "','" + values[2] + "','" + values[3] + "','" + values[4] + "','" + values[5] + "')";
+                            //download table
+                            String sqlDelete = "DELETE FROM HNAEvents";
+                            SqlCommand deleteCommand = new SqlCommand(sqlDelete, connection);
+                            deleteCommand.ExecuteNonQuery();
 
-                            //String sql = "INSERT INTO HNAEvents(EventId, Name, DateTime, Location, Type, ExtraNotes) VALUES(1, 'Deck the Dome', '2017-10-28 08:00', 'holy names', 'auction', 'none')";
-
-                            SqlCommand command = new SqlCommand(sql, connection);
-                            var rowsAffected = command.ExecuteNonQuery();
+                            String sql = $"INSERT INTO HNAEvents(EventId, Name, DateTime, Location, Type, ExtraNotes) VALUES ('{values[0]}', '{values[1]}', '{values[2]}', '{values[3]}', '{values[4]}', '{values[5]}')";
+                                                      
+                            SqlCommand insertCommand = new SqlCommand(sql, connection);
+                            var rowsAffected = insertCommand.ExecuteNonQuery();
                             Console.WriteLine(rowsAffected);
+                                                 
+                                                                            
+                            //successful query -- String sql = "INSERT INTO HNAEvents(EventId, Name, DateTime, Location, Type, ExtraNotes) 
+                            //                                  VALUES(1, 'Deck the Dome', '2017-10-28 08:00', 'holy names', 'auction', 'none')";                            
                             
                         }
                     }                    
