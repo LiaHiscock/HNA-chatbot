@@ -31,16 +31,17 @@ namespace AddChatbotData
 
                     using (var reader = new StreamReader(path))
                     {
+                        //downloads the table and deletes all existing objects
+                        String sqlDelete = "DELETE FROM HNAEvents";
+                        SqlCommand deleteCommand = new SqlCommand(sqlDelete, connection);
+                        deleteCommand.ExecuteNonQuery();
+
                         while (!reader.EndOfStream)
                         {
                             var line = reader.ReadLine().Trim();
                             var values = line.Split(',');
 
-                            //download table
-                            String sqlDelete = "DELETE FROM HNAEvents";
-                            SqlCommand deleteCommand = new SqlCommand(sqlDelete, connection);
-                            deleteCommand.ExecuteNonQuery();
-
+                            
                             String sql = $"INSERT INTO HNAEvents(EventId, Name, DateTime, Location, Type, ExtraNotes) VALUES ('{values[0]}', '{values[1]}', '{values[2]}', '{values[3]}', '{values[4]}', '{values[5]}')";
                                                       
                             SqlCommand insertCommand = new SqlCommand(sql, connection);
