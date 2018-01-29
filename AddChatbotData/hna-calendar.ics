@@ -1,0 +1,2362 @@
+BEGIN:VCALENDAR
+PRODID:-//Trumba Corporation//Trumba Calendar Services 0.11.15717//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Holy Names Academy
+X-WR-TIMEZONE:America/Los_Angeles
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Second-Semester Schedule Change Deadline
+DTSTART;VALUE=DATE:20180129
+DTEND;VALUE=DATE:20180130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170710T102057Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124340970
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124340970
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180129T061000
+DTEND;TZID=America/Los_Angeles:20180129T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105217
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105217
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:JVC Basketball @ Garfield
+LOCATION:Garfield High School\, 400 23rd Ave\, Seattle\, WA 98122
+DTSTART;TZID=America/Los_Angeles:20180129T190000
+DTEND;TZID=America/Los_Angeles:20180129T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20171229T130206Z
+CATEGORIES:Basketball
+UID:http://uid.trumba.com/event/126350323
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d126350323
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Alumnae Board Meeting
+DTSTART;TZID=America/Los_Angeles:20180130T183000
+DTEND;TZID=America/Los_Angeles:20180130T183000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T102127Z
+CATEGORIES:Alumnae
+UID:http://uid.trumba.com/event/124340973
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124340973
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Student Forecasts Due
+DTSTART;VALUE=DATE:20180131
+DTEND;VALUE=DATE:20180201
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170710T102230Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124340979
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124340979
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180131T061000
+DTEND;TZID=America/Los_Angeles:20180131T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105218
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105218
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Finance Committee Meeting
+DTSTART;TZID=America/Los_Angeles:20180131T070000
+DTEND;TZID=America/Los_Angeles:20180131T070000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T102207Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124340975
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124340975
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:JV Basketball @ Lakeside
+LOCATION:Lakeside School\, 14050 1st Ave NE\, Seattle\, WA 98125
+DTSTART;TZID=America/Los_Angeles:20180131T174500
+DTEND;TZID=America/Los_Angeles:20180131T174500
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20171116T195352Z
+CATEGORIES:Basketball
+UID:http://uid.trumba.com/event/125920236
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125920236
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Varsity Basketball @ Lakeside
+LOCATION:Lakeside School\, 14050 1st Ave NE\, Seattle\, WA 98125
+DTSTART;TZID=America/Los_Angeles:20180131T193000
+DTEND;TZID=America/Los_Angeles:20180131T193000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20171116T195334Z
+CATEGORIES:Basketball
+UID:http://uid.trumba.com/event/125920235
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125920235
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Catholic Schools Week Liturgy
+LOCATION:St. Joseph Church\, Seattle\, WA
+DTSTART;TZID=America/Los_Angeles:20180201T110000
+DTEND;TZID=America/Los_Angeles:20180201T110000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170711T145938Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124340990
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124340990
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:JVC Basketball @ Seattle Prep
+LOCATION:Seattle Prep\, 2400 11th Ave E\, Seattle\, WA 98102
+DTSTART;TZID=America/Los_Angeles:20180201T193000
+DTEND;TZID=America/Los_Angeles:20180201T193000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20171116T195436Z
+CATEGORIES:Basketball
+UID:http://uid.trumba.com/event/125920237
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125920237
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180202T061000
+DTEND;TZID=America/Los_Angeles:20180202T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105219
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105219
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:JV Basketball @ Seattle Prep
+LOCATION:Seattle Prep\, 2400 11th Ave E\, Seattle\, WA 98102
+DTSTART;TZID=America/Los_Angeles:20180202T160000
+DTEND;TZID=America/Los_Angeles:20180202T160000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20171116T195454Z
+CATEGORIES:Basketball
+UID:http://uid.trumba.com/event/125920238
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125920238
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Varsity Basketball @ Seattle Prep
+LOCATION:Seattle Prep\, 2400 11th Ave E\, Seattle\, WA 98102
+DTSTART;TZID=America/Los_Angeles:20180202T190000
+DTEND;TZID=America/Los_Angeles:20180202T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20171116T195512Z
+CATEGORIES:Basketball
+UID:http://uid.trumba.com/event/125920239
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125920239
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Father/Daughter Casino Night
+DTSTART;TZID=America/Los_Angeles:20180203T180000
+DTEND;TZID=America/Los_Angeles:20180203T220000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T102413Z
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124340992
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124340992
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180205T061000
+DTEND;TZID=America/Los_Angeles:20180205T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105220
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105220
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marketing Committee Meeting
+DTSTART;TZID=America/Los_Angeles:20180205T173000
+DTEND;TZID=America/Los_Angeles:20180205T173000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T102449Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124340995
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124340995
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Parent Board Meeting
+DTSTART;TZID=America/Los_Angeles:20180206T174500
+DTEND;TZID=America/Los_Angeles:20180206T174500
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T102528Z
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124340997
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124340997
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:10th/11th-Grade Fireside Chat
+DTSTART;TZID=America/Los_Angeles:20180206T193000
+DTEND;TZID=America/Los_Angeles:20180206T193000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T102716Z
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124341056
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341056
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180207T061000
+DTEND;TZID=America/Los_Angeles:20180207T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105221
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105221
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Governance Committee Meeting
+DTSTART;TZID=America/Los_Angeles:20180208T070000
+DTEND;TZID=America/Los_Angeles:20180208T070000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T102810Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341059
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341059
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180209T061000
+DTEND;TZID=America/Los_Angeles:20180209T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105222
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New Works Festival
+DTSTART;TZID=America/Los_Angeles:20180209T153000
+DTEND;TZID=America/Los_Angeles:20180209T153000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T102849Z
+CATEGORIES:Performing Arts
+UID:http://uid.trumba.com/event/124341060
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341060
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ACT Test Date
+DTSTART;VALUE=DATE:20180210
+DTEND;VALUE=DATE:20180211
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+URL:http://www.act.org/content/act/en/products-and-services/the-act.html
+DTSTAMP:20170711T150034Z
+DESCRIPTION:Link: http://www.act.org/content/act/en/products-and-service
+ s/the-act.html
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124362743
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362743
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Basketball: District Tournament
+DTSTART;VALUE=DATE:20180210
+DTEND;VALUE=DATE:20180211
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T150200Z
+CATEGORIES:Basketball
+UID:http://uid.trumba.com/event/124362746
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362746
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gymnastics: District Tournament
+DTSTART;VALUE=DATE:20180210
+DTEND;VALUE=DATE:20180211
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T150134Z
+CATEGORIES:Gymnastics
+UID:http://uid.trumba.com/event/124362744
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362744
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Best of the Fest
+DTSTART;TZID=America/Los_Angeles:20180210T190000
+DTEND;TZID=America/Los_Angeles:20180210T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170711T150059Z
+CATEGORIES:Performing Arts
+UID:http://uid.trumba.com/event/124341061
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341061
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Annual Giving Spring Phonathon
+DTSTART;TZID=America/Los_Angeles:20180211T160000
+DTEND;TZID=America/Los_Angeles:20180211T200000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T102958Z
+CATEGORIES:Alumnae
+UID:http://uid.trumba.com/event/124341068
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341068
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NO SCHOOL: Faculty/Staff Retreat
+DTSTART;VALUE=DATE:20180212
+DTEND;VALUE=DATE:20180213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170310T123032Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/122931985
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d122931985
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Annual Giving Spring Phonathon
+DTSTART;TZID=America/Los_Angeles:20180212T173000
+DTEND;TZID=America/Los_Angeles:20180212T203000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T103046Z
+CATEGORIES:Alumnae
+UID:http://uid.trumba.com/event/124341070
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341070
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HNA Choirs: Archdiocesan Choral Festival at Benaroya Hall
+LOCATION:Benaroya Hall\, Seattle
+DTSTART;TZID=America/Los_Angeles:20180212T190000
+DTEND;TZID=America/Los_Angeles:20180212T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170711T150308Z
+CATEGORIES:Performing Arts
+UID:http://uid.trumba.com/event/124341075
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341075
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Board of Operations Meeting
+DTSTART;TZID=America/Los_Angeles:20180213T153000
+DTEND;TZID=America/Los_Angeles:20180213T153000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T103222Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341077
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341077
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Board of Trustees Meeting
+DTSTART;TZID=America/Los_Angeles:20180213T170000
+DTEND;TZID=America/Los_Angeles:20180213T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T103248Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341088
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341088
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180214T061000
+DTEND;TZID=America/Los_Angeles:20180214T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105224
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105224
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ash Wednesday Liturgy
+LOCATION:St. Joseph Church\, Seattle\, WA
+DTSTART;TZID=America/Los_Angeles:20180214T110000
+DTEND;TZID=America/Los_Angeles:20180214T110000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170711T150338Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341095
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341095
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Basketball: District Tournament
+DTSTART;VALUE=DATE:20180215
+DTEND;VALUE=DATE:20180216
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T150511Z
+CATEGORIES:Basketball
+UID:http://uid.trumba.com/event/124362758
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362758
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Investment Committee Meeting
+DTSTART;TZID=America/Los_Angeles:20180215T070000
+DTEND;TZID=America/Los_Angeles:20180215T070000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T103412Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341097
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341097
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NO SCHOOL: Jogathon Goal Holiday
+DTSTART;VALUE=DATE:20180216
+DTEND;VALUE=DATE:20180217
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20171030T165513Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/122931990
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d122931990
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180216T061000
+DTEND;TZID=America/Los_Angeles:20180216T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105225
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105225
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NO SCHOOL: Presidents' Day/Winter Break
+DTSTART;VALUE=DATE:20180219
+DTEND;VALUE=DATE:20180221
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170310T123150Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/122931995
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d122931995
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180221T061000
+DTEND;TZID=America/Los_Angeles:20180221T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105227
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105227
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Interim Reports Due
+DTSTART;VALUE=DATE:20180222
+DTEND;VALUE=DATE:20180223
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T150407Z
+CATEGORIES:Faculty/Staff
+UID:http://uid.trumba.com/event/124362755
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362755
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Admissions Phonathon
+DTSTART;TZID=America/Los_Angeles:20180222T160000
+DTEND;TZID=America/Los_Angeles:20180222T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T103508Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341108
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341108
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CHEER! Auction Parent Donation Deadline
+DTSTART;VALUE=DATE:20180223
+DTEND;VALUE=DATE:20180224
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20171026T120948Z
+DESCRIPTION:NOTE: This date has changed since publication of the 2017-18
+  HNA Parent/Student Handbook &amp\; Calendar.
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124340830
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124340830
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Basketball: State Tournament Regional Round
+DTSTART;VALUE=DATE:20180223
+DTEND;VALUE=DATE:20180225
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T150910Z
+CATEGORIES:Basketball
+UID:http://uid.trumba.com/event/124362776
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362776
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180223T061000
+DTEND;TZID=America/Los_Angeles:20180223T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105228
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105228
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mother/Daughter Brunch
+DTSTART;TZID=America/Los_Angeles:20180224T100000
+DTEND;TZID=America/Los_Angeles:20180224T130000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T103542Z
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124341113
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341113
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring Sports: First Day of Practice
+DTSTART;VALUE=DATE:20180226
+DTEND;VALUE=DATE:20180227
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T150627Z
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/124362765
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362765
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180226T061000
+DTEND;TZID=America/Los_Angeles:20180226T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105229
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105229
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ice Cream Social for New Students
+DTSTART;TZID=America/Los_Angeles:20180226T183000
+DTEND;TZID=America/Los_Angeles:20180226T183000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T103617Z
+CATEGORIES:Admissions
+UID:http://uid.trumba.com/event/124341115
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341115
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Basketball: State Tournament
+LOCATION:Tacoma Dome
+DTSTART;VALUE=DATE:20180228
+DTEND;VALUE=DATE:20180304
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T150805Z
+CATEGORIES:Basketball
+UID:http://uid.trumba.com/event/124362772
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362772
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180228T061000
+DTEND;TZID=America/Los_Angeles:20180228T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105230
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105230
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Development Committee Meeting
+DTSTART;TZID=America/Los_Angeles:20180301T073000
+DTEND;TZID=America/Los_Angeles:20180301T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T103706Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341118
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341118
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New-Student Registration Forms Due at  Noon
+DTSTART;TZID=America/Los_Angeles:20180301T120000
+DTEND;TZID=America/Los_Angeles:20180301T120000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170711T151022Z
+CATEGORIES:Admissions
+UID:http://uid.trumba.com/event/124341119
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341119
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180302T061000
+DTEND;TZID=America/Los_Angeles:20180302T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105231
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105231
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Alumnae Luncheon
+DTSTART;TZID=America/Los_Angeles:20180303T110000
+DTEND;TZID=America/Los_Angeles:20180303T110000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T103803Z
+CATEGORIES:Alumnae
+UID:http://uid.trumba.com/event/124341121
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341121
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:9th-Grade Registration
+DTSTART;TZID=America/Los_Angeles:20180304T120000
+DTEND;TZID=America/Los_Angeles:20180304T160000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T103854Z
+CATEGORIES:Admissions
+UID:http://uid.trumba.com/event/124341212
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341212
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Annual Giving Spring Phonathon
+DTSTART;TZID=America/Los_Angeles:20180304T160000
+DTEND;TZID=America/Los_Angeles:20180304T200000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T103935Z
+CATEGORIES:Alumnae
+UID:http://uid.trumba.com/event/124341215
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341215
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180305T061000
+DTEND;TZID=America/Los_Angeles:20180305T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105232
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105232
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Make-Up Registration
+DTSTART;TZID=America/Los_Angeles:20180305T150000
+DTEND;TZID=America/Los_Angeles:20180305T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T104013Z
+CATEGORIES:Admissions
+UID:http://uid.trumba.com/event/124341230
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341230
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Annual Giving Spring Phonathon
+DTSTART;TZID=America/Los_Angeles:20180305T173000
+DTEND;TZID=America/Los_Angeles:20180305T203000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T104049Z
+CATEGORIES:Alumnae
+UID:http://uid.trumba.com/event/124341233
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341233
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building Committee Meeting
+DTSTART;TZID=America/Los_Angeles:20180306T080000
+DTEND;TZID=America/Los_Angeles:20180306T080000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T104129Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341236
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341236
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Parent Board Meeting
+DTSTART;TZID=America/Los_Angeles:20180306T174500
+DTEND;TZID=America/Los_Angeles:20180306T174500
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T104157Z
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124341241
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341241
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Parent Board Faculty Staff Appreciation Luncheon
+DTSTART;VALUE=DATE:20180307
+DTEND;VALUE=DATE:20180308
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170710T104246Z
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124341252
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341252
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180307T061000
+DTEND;TZID=America/Los_Angeles:20180307T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105233
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105233
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180309T061000
+DTEND;TZID=America/Los_Angeles:20180309T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105234
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105234
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HNA/O'Dea Spring Fling Dance
+DTSTART;TZID=America/Los_Angeles:20180309T190000
+DTEND;TZID=America/Los_Angeles:20180309T220000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170711T151148Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341263
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341263
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SAT Test Date
+DTSTART;TZID=America/Los_Angeles:20180310T120000
+DTEND;TZID=America/Los_Angeles:20180310T130000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+URL:https://collegereadiness.collegeboard.org/sat/register
+DTSTAMP:20170711T151311Z
+DESCRIPTION:Link: https://collegereadiness.collegeboard.org/sat/register
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124362789
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362789
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180312T061000
+DTEND;TZID=America/Los_Angeles:20180312T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105235
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105235
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:10th-/11th-Grade Lenten Reconciliation
+DTSTART;VALUE=DATE:20180313
+DTEND;VALUE=DATE:20180314
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170710T104739Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341275
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341275
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Alumnae Board Meeting
+DTSTART;TZID=America/Los_Angeles:20180313T183000
+DTEND;TZID=America/Los_Angeles:20180313T183000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T104543Z
+CATEGORIES:Alumnae
+UID:http://uid.trumba.com/event/124341277
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341277
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:9th-/12th-Grade Lenten Reconciliation
+DTSTART;VALUE=DATE:20180314
+DTEND;VALUE=DATE:20180315
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170710T104730Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341291
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341291
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180314T061000
+DTEND;TZID=America/Los_Angeles:20180314T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105236
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105236
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Finance Committee Meeting
+DTSTART;TZID=America/Los_Angeles:20180314T070000
+DTEND;TZID=America/Los_Angeles:20180314T070000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T104822Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341292
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341292
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rock Show
+DTSTART;TZID=America/Los_Angeles:20180315T190000
+DTEND;TZID=America/Los_Angeles:20180315T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T104850Z
+CATEGORIES:Performing Arts
+UID:http://uid.trumba.com/event/124341295
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341295
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Search Retreat
+DTSTART;VALUE=DATE:20180316
+DTEND;VALUE=DATE:20180319
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170710T104922Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341300
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341300
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180316T061000
+DTEND;TZID=America/Los_Angeles:20180316T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105237
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105237
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crew: Green Lake Spring Regatta
+DTSTART;VALUE=DATE:20180317
+DTEND;VALUE=DATE:20180318
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T151339Z
+CATEGORIES:Crew
+UID:http://uid.trumba.com/event/124362790
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362790
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crew: Shamrock Regatta
+DTSTART;VALUE=DATE:20180317
+DTEND;VALUE=DATE:20180319
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170828T094558Z
+CATEGORIES:Crew
+UID:http://uid.trumba.com/event/124362786
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362786
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Senior Skip Day
+DTSTART;VALUE=DATE:20180319
+DTEND;VALUE=DATE:20180320
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170710T104955Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341313
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341313
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180319T061000
+DTEND;TZID=America/Los_Angeles:20180319T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105238
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105238
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Peace & Justice Day
+DTSTART;VALUE=DATE:20180321
+DTEND;VALUE=DATE:20180322
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T151407Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341318
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341318
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180321T061000
+DTEND;TZID=America/Los_Angeles:20180321T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105239
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105239
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:END OF QUARTER
+DTSTART;TZID=America/Los_Angeles:20180322T120000
+DTEND;TZID=America/Los_Angeles:20180322T130000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T105043Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341321
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341321
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180323T061000
+DTEND;TZID=America/Los_Angeles:20180323T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105240
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105240
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Alumnae Wine-Tasting Event
+DTSTART;TZID=America/Los_Angeles:20180323T180000
+DTEND;TZID=America/Los_Angeles:20180323T180000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T105122Z
+CATEGORIES:Alumnae
+UID:http://uid.trumba.com/event/124341324
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341324
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180326T061000
+DTEND;TZID=America/Los_Angeles:20180326T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105241
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105241
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grandparents Day Luncheon
+LOCATION:Mary Herche Pavilion at HNA
+DTSTART;TZID=America/Los_Angeles:20180327T120000
+DTEND;TZID=America/Los_Angeles:20180327T120000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170711T151533Z
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124341337
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341337
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Board Operations Meeting
+DTSTART;TZID=America/Los_Angeles:20180327T153000
+DTEND;TZID=America/Los_Angeles:20180327T153000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T105243Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341340
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341340
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Board of Trustees Meeting
+DTSTART;TZID=America/Los_Angeles:20180327T170000
+DTEND;TZID=America/Los_Angeles:20180327T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T105314Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341343
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341343
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180328T061000
+DTEND;TZID=America/Los_Angeles:20180328T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105242
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105242
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holy Thursday Prayer Service
+DTSTART;VALUE=DATE:20180329
+DTEND;VALUE=DATE:20180330
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170710T105342Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341345
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341345
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Good Friday Prayer Service
+DTSTART;VALUE=DATE:20180330
+DTEND;VALUE=DATE:20180331
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170710T105403Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341348
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341348
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Easter
+DTSTART;VALUE=DATE:20180401
+DTEND;VALUE=DATE:20180402
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170310T123242Z
+CATEGORIES:Holy Names Academy
+UID:http://uid.trumba.com/event/122931998
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d122931998
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NO SCHOOL: Spring Break
+DTSTART;VALUE=DATE:20180402
+DTEND;VALUE=DATE:20180407
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T153926Z
+CATEGORIES:Holy Names Academy
+UID:http://uid.trumba.com/event/122932117
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d122932117
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CHEER! Auction Reservations Deadline
+DTSTART;VALUE=DATE:20180409
+DTEND;VALUE=DATE:20180410
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20171026T110449Z
+DESCRIPTION:NOTE: The date for reservations deadline has changed since t
+ he 2017-18 Parent/Student Handbook &amp\; Calendar was published.
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124341268
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341268
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Classes Resume
+DTSTART;VALUE=DATE:20180409
+DTEND;VALUE=DATE:20180410
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170616T120431Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124007709
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124007709
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180409T061000
+DTEND;TZID=America/Los_Angeles:20180409T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105247
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105247
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Parent Board Meeting
+DTSTART;TZID=America/Los_Angeles:20180410T174500
+DTEND;TZID=America/Los_Angeles:20180410T174500
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T105455Z
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124341415
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341415
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180411T061000
+DTEND;TZID=America/Los_Angeles:20180411T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105248
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105248
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planned Giving Committee Meeting
+DTSTART;TZID=America/Los_Angeles:20180412T073000
+DTEND;TZID=America/Los_Angeles:20180412T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T105530Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341476
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341476
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180413T061000
+DTEND;TZID=America/Los_Angeles:20180413T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105249
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105249
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fine Arts Showcase
+DTSTART;TZID=America/Los_Angeles:20180413T170000
+DTEND;TZID=America/Los_Angeles:20180413T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T105606Z
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124341480
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341480
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring Concert
+DTSTART;TZID=America/Los_Angeles:20180413T190000
+DTEND;TZID=America/Los_Angeles:20180413T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T105629Z
+CATEGORIES:Performing Arts
+UID:http://uid.trumba.com/event/124341483
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341483
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ACT Test Date
+DTSTART;VALUE=DATE:20180414
+DTEND;VALUE=DATE:20180415
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+URL:http://www.act.org/content/act/en/products-and-services/the-act.html
+DTSTAMP:20170711T151648Z
+DESCRIPTION:Link: http://www.act.org/content/act/en/products-and-service
+ s/the-act.html
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124362837
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362837
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Big Sister/Little Sister Bowling Party
+DTSTART;TZID=America/Los_Angeles:20180415T133000
+DTEND;TZID=America/Los_Angeles:20180415T153000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T105742Z
+CATEGORIES:Admissions
+UID:http://uid.trumba.com/event/124341486
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341486
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180416T061000
+DTEND;TZID=America/Los_Angeles:20180416T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105250
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105250
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marketing Committee Meeting
+DTSTART;TZID=America/Los_Angeles:20180416T173000
+DTEND;TZID=America/Los_Angeles:20180416T173000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T105819Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341544
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341544
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Alumnae Board Meeting
+DTSTART;TZID=America/Los_Angeles:20180417T183000
+DTEND;TZID=America/Los_Angeles:20180417T183000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T105846Z
+CATEGORIES:Alumnae
+UID:http://uid.trumba.com/event/124341606
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341606
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring Music Recital
+DTSTART;TZID=America/Los_Angeles:20180417T190000
+DTEND;TZID=America/Los_Angeles:20180417T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T105919Z
+CATEGORIES:Performing Arts
+UID:http://uid.trumba.com/event/124341609
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341609
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Career Day
+DTSTART;VALUE=DATE:20180418
+DTEND;VALUE=DATE:20180419
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T151714Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341618
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341618
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Senior Retreat
+DTSTART;VALUE=DATE:20180418
+DTEND;VALUE=DATE:20180419
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T151730Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341619
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341619
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180418T061000
+DTEND;TZID=America/Los_Angeles:20180418T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105251
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105251
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Investment Committee Meeting
+DTSTART;TZID=America/Los_Angeles:20180419T070000
+DTEND;TZID=America/Los_Angeles:20180419T070000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T110054Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341636
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341636
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180420T061000
+DTEND;TZID=America/Los_Angeles:20180420T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105252
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105252
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CHEER! AUCTION at Fremont Studios
+LOCATION:Fremont Studios
+DTSTART;TZID=America/Los_Angeles:20180421T170000
+DTEND;TZID=America/Los_Angeles:20180421T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T110248Z
+CATEGORIES:Holy Names Academy
+UID:http://uid.trumba.com/event/124341753
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341753
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180423T061000
+DTEND;TZID=America/Los_Angeles:20180423T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105253
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105253
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Interim Reports Due
+DTSTART;VALUE=DATE:20180425
+DTEND;VALUE=DATE:20180426
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T151821Z
+CATEGORIES:Faculty/Staff
+UID:http://uid.trumba.com/event/124362845
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362845
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180425T061000
+DTEND;TZID=America/Los_Angeles:20180425T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105254
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105254
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Finance Committee Meeting
+DTSTART;TZID=America/Los_Angeles:20180425T070000
+DTEND;TZID=America/Los_Angeles:20180425T070000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T110356Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341761
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341761
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring Musical
+DTSTART;TZID=America/Los_Angeles:20180426T190000
+DTEND;TZID=America/Los_Angeles:20180426T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T110423Z
+CATEGORIES:Performing Arts
+UID:http://uid.trumba.com/event/124341764
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341764
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crew: Brentwood Regatta
+LOCATION:Brentwood College School\, Vancouver Island\, British Columbia\,
+  Canada
+DTSTART;VALUE=DATE:20180427
+DTEND;VALUE=DATE:20180430
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T152041Z
+CATEGORIES:Crew
+UID:http://uid.trumba.com/event/124362856
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362856
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180427T061000
+DTEND;TZID=America/Los_Angeles:20180427T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105255
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105255
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring Musical Middle-School Matinee
+DTSTART;TZID=America/Los_Angeles:20180427T100000
+DTEND;TZID=America/Los_Angeles:20180427T100000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T110458Z
+CATEGORIES:Faculty/Staff
+UID:http://uid.trumba.com/event/124341767
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341767
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring Musical
+DTSTART;TZID=America/Los_Angeles:20180427T190000
+DTEND;TZID=America/Los_Angeles:20180427T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T110519Z
+CATEGORIES:Performing Arts
+UID:http://uid.trumba.com/event/124341773
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341773
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring Musical
+DTSTART;TZID=America/Los_Angeles:20180428T190000
+DTEND;TZID=America/Los_Angeles:20180428T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T110535Z
+CATEGORIES:Performing Arts
+UID:http://uid.trumba.com/event/124341776
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341776
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring Musical
+DTSTART;TZID=America/Los_Angeles:20180429T140000
+DTEND;TZID=America/Los_Angeles:20180429T140000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T110552Z
+CATEGORIES:Performing Arts
+UID:http://uid.trumba.com/event/124341778
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341778
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180430T061000
+DTEND;TZID=America/Los_Angeles:20180430T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105256
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105256
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New Parent/Student Sports Information Night
+LOCATION:HNA Gym
+DTSTART;TZID=America/Los_Angeles:20180430T190000
+DTEND;TZID=America/Los_Angeles:20180430T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20171012T085808Z
+DESCRIPTION:NOTE: This date is a change from that listed on the 2017-18 
+ HNA Parent/Student Handbook &amp\; Calendar.
+CATEGORIES:Admissions
+UID:http://uid.trumba.com/event/124341758
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341758
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mary Day Liturgy
+DTSTART;TZID=America/Los_Angeles:20180501T110000
+DTEND;TZID=America/Los_Angeles:20180501T110000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T110803Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341792
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341792
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Board Operations Meeting
+DTSTART;TZID=America/Los_Angeles:20180501T143000
+DTEND;TZID=America/Los_Angeles:20180501T153000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T110912Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341800
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Board of Trustees Meeting
+DTSTART;TZID=America/Los_Angeles:20180501T160000
+DTEND;TZID=America/Los_Angeles:20180501T160000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T110940Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341801
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341801
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Faculty/Staff Appreciation Dinner
+DTSTART;TZID=America/Los_Angeles:20180501T173000
+DTEND;TZID=America/Los_Angeles:20180501T173000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T111009Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341802
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341802
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180502T061000
+DTEND;TZID=America/Los_Angeles:20180502T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105257
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105257
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Annual Giving Committee Meeting
+DTSTART;TZID=America/Los_Angeles:20180503T173000
+DTEND;TZID=America/Los_Angeles:20180503T173000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T111044Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341803
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341803
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180504T061000
+DTEND;TZID=America/Los_Angeles:20180504T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105258
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105258
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SAT Test Date
+DTSTART;VALUE=DATE:20180505
+DTEND;VALUE=DATE:20180506
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+URL:https://collegereadiness.collegeboard.org/sat/register
+DTSTAMP:20170711T152143Z
+DESCRIPTION:Link: https://collegereadiness.collegeboard.org/sat/register
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124362858
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362858
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crew: Windermere Cup Regatta
+DTSTART;VALUE=DATE:20180505
+DTEND;VALUE=DATE:20180506
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T152214Z
+CATEGORIES:Crew
+UID:http://uid.trumba.com/event/124362861
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362861
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AP EXAMS BEGIN
+DTSTART;VALUE=DATE:20180507
+DTEND;VALUE=DATE:20180508
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170710T111143Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341806
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341806
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180507T061000
+DTEND;TZID=America/Los_Angeles:20180507T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105259
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AP Psychology
+DTSTART;TZID=America/Los_Angeles:20180507T130000
+DTEND;TZID=America/Los_Angeles:20180507T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T111415Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341815
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341815
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building Committee Meeting
+DTSTART;TZID=America/Los_Angeles:20180508T080000
+DTEND;TZID=America/Los_Angeles:20180508T080000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T111439Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341817
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341817
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AP Spanish Language & Culture
+DTSTART;TZID=America/Los_Angeles:20180508T080000
+DTEND;TZID=America/Los_Angeles:20180508T120000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T111519Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341835
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341835
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AP Art History
+DTSTART;TZID=America/Los_Angeles:20180508T130000
+DTEND;TZID=America/Los_Angeles:20180508T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T111546Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341836
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341836
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Parent Board Meeting
+DTSTART;TZID=America/Los_Angeles:20180508T174500
+DTEND;TZID=America/Los_Angeles:20180508T174500
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T111618Z
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124341857
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341857
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Orientation for New Parents
+DTSTART;TZID=America/Los_Angeles:20180508T190000
+DTEND;TZID=America/Los_Angeles:20180508T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T111644Z
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124341858
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341858
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180509T061000
+DTEND;TZID=America/Los_Angeles:20180509T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105260
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105260
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AP English Literature
+DTSTART;TZID=America/Los_Angeles:20180509T080000
+DTEND;TZID=America/Los_Angeles:20180509T120000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T111727Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341861
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341861
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AP Physics 2
+DTSTART;TZID=America/Los_Angeles:20180509T130000
+DTEND;TZID=America/Los_Angeles:20180509T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T111821Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341865
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341865
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Development Committee Meeting
+DTSTART;TZID=America/Los_Angeles:20180510T073000
+DTEND;TZID=America/Los_Angeles:20180510T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T111900Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124341885
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341885
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AP Environmental Science
+DTSTART;TZID=America/Los_Angeles:20180510T130000
+DTEND;TZID=America/Los_Angeles:20180510T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T111938Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341910
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341910
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Parent Board Faculty Staff Appreciation Breakfast
+DTSTART;VALUE=DATE:20180511
+DTEND;VALUE=DATE:20180512
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170710T112045Z
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124341915
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341915
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AP Studio Art Portfolios Due
+DTSTART;VALUE=DATE:20180511
+DTEND;VALUE=DATE:20180512
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170710T112149Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341921
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341921
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180511T061000
+DTEND;TZID=America/Los_Angeles:20180511T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105261
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105261
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AP US History
+DTSTART;TZID=America/Los_Angeles:20180511T080000
+DTEND;TZID=America/Los_Angeles:20180511T120000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T112120Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341917
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341917
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HNA Junior Prom
+DTSTART;TZID=America/Los_Angeles:20180512T200000
+DTEND;TZID=America/Los_Angeles:20180512T230000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170711T152245Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341925
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341925
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180514T061000
+DTEND;TZID=America/Los_Angeles:20180514T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105262
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105262
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AP Biology
+DTSTART;TZID=America/Los_Angeles:20180514T080000
+DTEND;TZID=America/Los_Angeles:20180514T120000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T112329Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341929
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341929
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Parent Board New-Member Orientation
+DTSTART;TZID=America/Los_Angeles:20180514T173000
+DTEND;TZID=America/Los_Angeles:20180514T173000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T112452Z
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124341939
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341939
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AP Calculus AB/BC
+DTSTART;TZID=America/Los_Angeles:20180515T080000
+DTEND;TZID=America/Los_Angeles:20180515T120000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T112524Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341943
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341943
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AP Computer Science A
+DTSTART;TZID=America/Los_Angeles:20180515T130000
+DTEND;TZID=America/Los_Angeles:20180515T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T112634Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341953
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341953
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AP French Language & Culture
+DTSTART;TZID=America/Los_Angeles:20180515T130000
+DTEND;TZID=America/Los_Angeles:20180515T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T112602Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124341948
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124341948
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180516T061000
+DTEND;TZID=America/Los_Angeles:20180516T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105263
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105263
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Finance Committee Meeting
+DTSTART;TZID=America/Los_Angeles:20180516T070000
+DTEND;TZID=America/Los_Angeles:20180516T070000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T112657Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124342031
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342031
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AP English Language
+DTSTART;TZID=America/Los_Angeles:20180516T080000
+DTEND;TZID=America/Los_Angeles:20180516T120000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T112839Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124342052
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342052
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AP World History
+DTSTART;TZID=America/Los_Angeles:20180517T080000
+DTEND;TZID=America/Los_Angeles:20180517T120000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T112927Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124342056
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342056
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AP Statistics
+DTSTART;TZID=America/Los_Angeles:20180517T130000
+DTEND;TZID=America/Los_Angeles:20180517T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T113001Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124342059
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342059
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crew: Northwest Regional District Meet
+LOCATION:Vancouver\, Wash.
+DTSTART;VALUE=DATE:20180518
+DTEND;VALUE=DATE:20180521
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T152658Z
+CATEGORIES:Crew
+UID:http://uid.trumba.com/event/124362871
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362871
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180518T061000
+DTEND;TZID=America/Los_Angeles:20180518T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105264
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105264
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SENIOR EXAMS Periods 6 and 5
+DTSTART;TZID=America/Los_Angeles:20180518T100000
+DTEND;TZID=America/Los_Angeles:20180518T143000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T113213Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124342075
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342075
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:50th-Year/50Plus Alumnae Reunion
+DTSTART;TZID=America/Los_Angeles:20180519T100000
+DTEND;TZID=America/Los_Angeles:20180519T100000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T113309Z
+CATEGORIES:Alumnae
+UID:http://uid.trumba.com/event/124342079
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342079
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HNA/O'Dea Last Chance Dance
+DTSTART;TZID=America/Los_Angeles:20180519T200000
+DTEND;TZID=America/Los_Angeles:20180519T230000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170711T152309Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124342085
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342085
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180521T061000
+DTEND;TZID=America/Los_Angeles:20180521T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105265
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105265
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SENIOR EXAMS Periods 4 and 3
+DTSTART;TZID=America/Los_Angeles:20180521T100000
+DTEND;TZID=America/Los_Angeles:20180521T143000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T113512Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124342131
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342131
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Golf: State Tournament
+DTSTART;VALUE=DATE:20180522
+DTEND;VALUE=DATE:20180524
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T152752Z
+CATEGORIES:Golf
+UID:http://uid.trumba.com/event/124362874
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362874
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SENIOR EXAMS Periods 2 and 1
+DTSTART;TZID=America/Los_Angeles:20180522T100000
+DTEND;TZID=America/Los_Angeles:20180522T143000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T113552Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124342139
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342139
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Early Dismissal Grades 9-11
+DTSTART;TZID=America/Los_Angeles:20180522T134500
+DTEND;TZID=America/Los_Angeles:20180522T134500
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T113637Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124342144
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342144
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Senior/Parent Mass
+DTSTART;TZID=America/Los_Angeles:20180522T190000
+DTEND;TZID=America/Los_Angeles:20180522T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T113707Z
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124342148
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342148
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Class Day
+DTSTART;VALUE=DATE:20180523
+DTEND;VALUE=DATE:20180524
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170710T113731Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124342150
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342150
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180523T061000
+DTEND;TZID=America/Los_Angeles:20180523T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105266
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105266
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Track & Field: State Tournament
+LOCATION:Mount Tahoma High School\, Tacoma
+DTSTART;VALUE=DATE:20180524
+DTEND;VALUE=DATE:20180527
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T152914Z
+CATEGORIES:Track
+UID:http://uid.trumba.com/event/124362878
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362878
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dismissal at 11:45 a.m.
+DTSTART;TZID=America/Los_Angeles:20180524T114500
+DTEND;TZID=America/Los_Angeles:20180524T114500
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170310T123428Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/122932122
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d122932122
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Baccalaureate Mass
+LOCATION:St. James Cathedral\, Seattle
+DTSTART;TZID=America/Los_Angeles:20180524T131500
+DTEND;TZID=America/Los_Angeles:20180524T131500
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170711T152518Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/122932138
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d122932138
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Softball: State Tournament
+LOCATION:Regional Athletic Complex\, Lacey\, Wash.
+DTSTART;VALUE=DATE:20180525
+DTEND;VALUE=DATE:20180527
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T153025Z
+CATEGORIES:Softball
+UID:http://uid.trumba.com/event/124362896
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362896
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tennis: State Tournament
+LOCATION:Kennewick\, Wash.
+DTSTART;VALUE=DATE:20180525
+DTEND;VALUE=DATE:20180527
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170711T153115Z
+CATEGORIES:Tennis
+UID:http://uid.trumba.com/event/124362898
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362898
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180525T061000
+DTEND;TZID=America/Los_Angeles:20180525T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105267
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105267
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Senior Prom
+LOCATION:The Space Needle\, Seattle Center
+DTSTART;TZID=America/Los_Angeles:20180525T200000
+DTEND;TZID=America/Los_Angeles:20180526T000000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170711T152549Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124342154
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342154
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Commencement Rehearsal
+LOCATION:Benaroya Hall\, Seattle\, WA
+DTSTART;TZID=America/Los_Angeles:20180527T140000
+DTEND;TZID=America/Los_Angeles:20180527T140000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170719T093752Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124342177
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342177
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Commencement of the Class of 2018
+LOCATION:Benaroya Hall\, \, 200 University St.
+DTSTART;TZID=America/Los_Angeles:20180527T190000
+DTEND;TZID=America/Los_Angeles:20180527T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170719T093739Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/122932384
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d122932384
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NO SCHOOL: Memorial Day
+DTSTART;VALUE=DATE:20180528
+DTEND;VALUE=DATE:20180529
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170310T123644Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/122932389
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d122932389
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:11th-Grade Class Retreat
+DTSTART;VALUE=DATE:20180530
+DTEND;VALUE=DATE:20180531
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20170710T113940Z
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124342161
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342161
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180530T061000
+DTEND;TZID=America/Los_Angeles:20180530T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105269
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105269
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auditions for Music-Lesson Scholarships
+DTSTART;TZID=America/Los_Angeles:20180530T150000
+DTEND;TZID=America/Los_Angeles:20180530T180000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T114028Z
+CATEGORIES:Performing Arts
+UID:http://uid.trumba.com/event/124342166
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342166
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Parent Board Meeting
+DTSTART;TZID=America/Los_Angeles:20180530T174500
+DTEND;TZID=America/Los_Angeles:20180530T174500
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T114054Z
+CATEGORIES:Parents
+UID:http://uid.trumba.com/event/124342170
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342170
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Governance Committee Meeting
+DTSTART;TZID=America/Los_Angeles:20180531T070000
+DTEND;TZID=America/Los_Angeles:20180531T070000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T114127Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124342172
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342172
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180601T061000
+DTEND;TZID=America/Los_Angeles:20180601T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105270
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105270
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SAT Test Date
+DTSTART;VALUE=DATE:20180602
+DTEND;VALUE=DATE:20180603
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+URL:https://collegereadiness.collegeboard.org/sat/register
+DTSTAMP:20170711T153225Z
+DESCRIPTION:Link: https://collegereadiness.collegeboard.org/sat/register
+CATEGORIES:Students
+UID:http://uid.trumba.com/event/124362913
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124362913
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morning Conditioning
+LOCATION:Holy Names Academy Gym or Fitness Center
+DTSTART;TZID=America/Los_Angeles:20180604T061000
+DTEND;TZID=America/Los_Angeles:20180604T073000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170908T170712Z
+DESCRIPTION:Morning conditioning is open to all HNA students.&nbsp\;
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/125105271
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d125105271
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Donor Thankathon
+DTSTART;TZID=America/Los_Angeles:20180605T144500
+DTEND;TZID=America/Los_Angeles:20180605T173000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T114307Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124342184
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342184
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Board of Operations Meeting
+DTSTART;TZID=America/Los_Angeles:20180605T153000
+DTEND;TZID=America/Los_Angeles:20180605T153000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+DTSTAMP:20170710T114329Z
+CATEGORIES:Trustees
+UID:http://uid.trumba.com/event/124342187
+X-TRUMBA-LINK:http://holynames-sea.org/Calendar/?trumbaEmbed=view%3deven
+ t%26eventid%3d124342187
+END:VEVENT
+END:VCALENDAR
