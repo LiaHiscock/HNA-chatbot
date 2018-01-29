@@ -24,12 +24,17 @@ namespace HNAchatbot.Dialogs
 
             // return our reply to the user
             string WelcomeText = "Welcome to the HNA Chatbot!\nSome things you can ask me are:\nWhat's the schedule today?" +
-                "\nWhat's the lunch menu today?\nWhat sports games are today?\nAre there any dances coming up?";
+                "\nWhat's the lunch menu today?\nWhat sports games are today?\nAre there any dances coming up? Type \"END\" to stop at anytime.";
             await context.PostAsync(WelcomeText);
+
+            while (activity.Text != "END") {
+                //send activity.Text to our message response class
+
+            }
 
             //await context.PostAsync($"You sent {activity.Text} which was {length} characters");
 
             context.Wait(MessageReceivedAsync);
-        }
+        }   
     }
 }
