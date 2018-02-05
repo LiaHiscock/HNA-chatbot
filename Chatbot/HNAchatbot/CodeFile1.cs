@@ -8,8 +8,14 @@ namespace HNAchatbot {
     //[BotAuthentication]
     public class MessageResponse {
 
-        public string SendMessage(string message)
+        public static string SendMessage(string message)
         {
+            if (message == "hi")
+            {
+                return "Welcome to the HNA Chatbot!\nSome things you can ask me are:\nWhat's the schedule today?" +
+                "\nWhat's the lunch menu today?\nWhat sports games are today?\nAre there any dances coming up? Type \"END\" to stop at anytime.";
+            }
+
             if (message == "calendar")
             {
                 return "sah dude";
