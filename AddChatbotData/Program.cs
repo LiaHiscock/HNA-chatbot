@@ -63,19 +63,25 @@ namespace AddChatbotData
 
         static void AddDataToCSV(string[] args)
         {
-            
-            String datafile = @".\data\data.csv";
-            String ical = @".\data\hna - calendar.ics";
+            String dataFile = @".\data\data.csv";
+            String iCal = @".\data\hna-calendar.ics";
 
-            using (var reader = new StreamReader(ical))
-                    {
-                       
-                        while (!reader.EndOfStream)
-                        {
-                            
-                 
-                        } 
+            using (var reader = new StreamReader(iCal))
+            {
+                while (!reader.EndOfStream)
+                {
+                    
 
+                }
+
+            }
+        }
+
+        public CalendarEvent ParseEvent()
+        {
+
+
+            return this.CalendarEvent;
         }
     }
 }
