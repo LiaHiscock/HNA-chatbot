@@ -77,11 +77,12 @@ namespace AddChatbotData
             }
         }
 
-        public CalendarEvent ParseEvent()
+        public CalendarEntry ParseEntry()
         {
+            return null;
 
+            
+        }
 
-            return this.CalendarEvent;
         }
     }
-}
