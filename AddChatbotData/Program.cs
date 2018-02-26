@@ -63,19 +63,20 @@ namespace AddChatbotData
 
         static void AddDataToCSV(string[] args)
         {
-            
+
             String datafile = @".\data\data.csv";
             String ical = @".\data\hna - calendar.ics";
 
             using (var reader = new StreamReader(ical))
-                    {
-                       
-                        while (!reader.EndOfStream)
-                        {
-                            
-                 
-                        } 
+            {
 
+                while (!reader.EndOfStream)
+                {
+
+
+                }
+
+            }
         }
     }
 }
