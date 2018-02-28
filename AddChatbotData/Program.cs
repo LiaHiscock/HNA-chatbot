@@ -79,9 +79,7 @@ namespace AddChatbotData
 
         public CalendarEntry ParseEntry()
         {
-            return null;
-
-            
+            return null;            
         }
 
         }
