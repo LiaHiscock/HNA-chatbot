@@ -10,8 +10,13 @@ namespace AddChatbotData
 {
     class Program
     {
-        static void Main (string[] args)
+        static void Main(string[] args)
         {
+            CSVtoDatabase();
+        }
+
+        static void CSVtoDatabase()
+        {         
             try
             {
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
@@ -40,8 +45,7 @@ namespace AddChatbotData
                         {
                             var line = reader.ReadLine().Trim();
                             var values = line.Split(',');
-
-
+                            
                             String sql = $"INSERT INTO HNAEvents(EventId, Name, DateTime, Location, Type, ExtraNotes) VALUES ('{values[0]}', '{values[1]}', '{values[2]}', '{values[3]}', '{values[4]}', '{values[5]}')";
 
                             SqlCommand insertCommand = new SqlCommand(sql, connection);
@@ -61,8 +65,8 @@ namespace AddChatbotData
             }
         }
 
-        static void AddDataToCSV(string[] args)
-        {
+         static void AddDataToCSV()
+         {
             // String dataFile = @".\data\data.csv";
             String iCal = @".\data\hna-calendar.ics";
 
@@ -70,17 +74,14 @@ namespace AddChatbotData
             {
                 while (!reader.EndOfStream)
                 {
-                    
 
                 }
-
             }
-        }
+          }
 
-        public CalendarEntry ParseEntry()
+        static CalendarEntry ParseEntry()
         {
-            return null;            
-        }
-
+            return null;
         }
     }
+}
