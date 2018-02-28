@@ -10,7 +10,7 @@ namespace AddChatbotData
 {
     class Program
     {
-        static void AddDataToDatabase(string[] args)
+        static void Main (string[] args)
         {
             try
             {
@@ -63,7 +63,7 @@ namespace AddChatbotData
 
         static void AddDataToCSV(string[] args)
         {
-            String dataFile = @".\data\data.csv";
+            // String dataFile = @".\data\data.csv";
             String iCal = @".\data\hna-calendar.ics";
 
             using (var reader = new StreamReader(iCal))
