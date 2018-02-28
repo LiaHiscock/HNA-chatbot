@@ -25,6 +25,7 @@ namespace AddChatbotData
                 builder.Password = "CharityAndWisdom1";
                 builder.InitialCatalog = "hna-db";
                 String path = @".\data\data.csv";
+                path = Path.Combine("..","..","data.csv");
 
                 using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
                 {
