@@ -68,11 +68,6 @@ namespace AddChatbotData
 
          static void AddDataToHashtable()
         {
-
-        }
-         static void AddDataToCSV()
-         {
-            // String dataFile = @".\data\data.csv";
             String iCal = @".\data\hna-calendar.ics";
 
             using (var reader = new StreamReader(iCal))
@@ -82,6 +77,11 @@ namespace AddChatbotData
 
                 }
             }
+        }
+         static void AddDataToCSV()
+         {
+            // String dataFile = @".\data\data.csv";
+            
           }
 
         static CalendarEntry ParseEntry()
