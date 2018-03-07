@@ -66,6 +66,10 @@ namespace AddChatbotData
             }
         }
 
+         static void AddDataToHashtable()
+        {
+
+        }
          static void AddDataToCSV()
          {
             // String dataFile = @".\data\data.csv";
