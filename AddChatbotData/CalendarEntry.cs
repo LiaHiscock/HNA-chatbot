@@ -6,15 +6,15 @@ namespace AddChatbotData
         private string summary;
         private string dStart;
         private string location;
-        private string catagories;
+        private string categories;
         private string description;
 
-        public CalendarEntry(string summary, string dStart,string location, string catagories, string description)
+        public CalendarEntry(string summary, string dStart,string location, string categories, string description)
         {
             this.summary = summary;
             this.dStart = dStart;
             this.location = location;
-            this.catagories = catagories;
+            this.categories = categories;
             this.description = description;
         }
 
@@ -29,9 +29,9 @@ namespace AddChatbotData
         {
             return location;
         }
-        public string getCatagories()
+        public string getCategories()
         {
-            return catagories;
+            return categories;
         }
         public string getDescription()
         {
