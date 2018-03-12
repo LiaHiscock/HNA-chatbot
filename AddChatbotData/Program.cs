@@ -66,20 +66,15 @@ namespace AddChatbotData
             }
         }
 
-         static void AddDataToHashtable()
-        {
-            String iCal = @".\data\hna-calendar.ics";
+         static void AddDataToDictionary()
+         {
+            Dictionary<String, CalendarEntry> tempData = new Dictionary<String, CalendarEntry>();
 
-            using (var reader = new StreamReader(iCal))
-            {
-                while (!reader.EndOfStream)
-                {
+            String eventID = 
 
-                }
-            }
         }
          static void AddDataToCSV()
-         {
+         { 
             // String dataFile = @".\data\data.csv";
             
           }
