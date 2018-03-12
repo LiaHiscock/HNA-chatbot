@@ -66,11 +66,30 @@ namespace AddChatbotData
             }
         }
 
-         static void AddDataToDictionary()
+        static List<CalendarEntry> AddDataToList()
          {
-            Dictionary<String, CalendarEntry> tempData = new Dictionary<String, CalendarEntry>();
+            List<CalendarEntry> calendarEvents = new List<CalendarEntry>();
 
-            String eventID = 
+            String iCal = @".\data\hna-calendar.ics";
+            using (var reader = new StreamReader(iCal))
+            {
+                while (!reader.EndOfStream)
+                {
+                    List<String> singleEvent = new List<String>();
+
+                    var line = reader.ReadLine().Trim();
+                    if (line.Equals("BEGIN:VEVENT"))
+                    {
+
+
+
+
+                        calendarEvents.Add(ParseEntry(singleEvent));
+                    }
+
+                }
+                return calendarEvents;
+            }
 
         }
          static void AddDataToCSV()
@@ -79,9 +98,11 @@ namespace AddChatbotData
             
           }
 
-        static CalendarEntry ParseEntry()
+        static CalendarEntry ParseEntry(List<String> singleEvent)
         {
-            return null;
+            
+            CalendarEntry c1 = new CalendarEntry();
+            return c1;
         }
     }
 }
