@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace AddChatbotData
 {
@@ -67,7 +68,7 @@ namespace AddChatbotData
         }
 
         static List<CalendarEntry> AddDataToList()
-         {
+        {
             List<CalendarEntry> calendarEvents = new List<CalendarEntry>();
 
             String iCal = @".\data\hna-calendar.ics";
@@ -75,23 +76,27 @@ namespace AddChatbotData
             {
                 while (!reader.EndOfStream)
                 {
-                    List<String> singleEvent = new List<String>();
+                    Dictionary<String, String> singleEvent = new Dictionary<String, String>();
 
                     var line = reader.ReadLine().Trim();
                     if (line.Equals("BEGIN:VEVENT"))
                     {
+                        //Regex eventSplitter = new Regex("([A - Z\\-] +)[;:](.+)");
 
-
-
+                        MatchCollection event1;
+                        event1 = Regex.Matches(line, "([A - Z\\-] +)[;:](.+)");
+                          
+                        //MatchCollection event = Regex.Matches(line,eventSplitter);
 
                         calendarEvents.Add(ParseEntry(singleEvent));
                     }
 
                 }
-                return calendarEvents;
+                
             }
-
+            return calendarEvents;
         }
+
          static void AddDataToCSV()
          { 
             // String dataFile = @".\data\data.csv";
