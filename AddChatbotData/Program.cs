@@ -79,20 +79,28 @@ namespace AddChatbotData
                     Dictionary<String, String> singleEvent = new Dictionary<String, String>();
 
                     var line = reader.ReadLine().Trim();
+
                     if (line.Equals("BEGIN:VEVENT"))
                     {
                         //Regex eventSplitter = new Regex("([A - Z\\-] +)[;:](.+)");
 
-                        MatchCollection event1;
-                        event1 = Regex.Matches(line, "([A - Z\\-] +)[;:](.+)");
-                          
+                        while (!line.Equals("END:VEVENT")
+                        {
+                            MatchCollection event1 = Regex.Matches(line, "([A - Z\\-] +)[;:](.+)");
+
+                            if (event1.Count > 1)
+                            {
+                                singleEvent.Add(event1[0].Value, event1[1].Value);
+                            }
+
+                           line = reader.ReadLine();        //reads the next line
+                        }
+
                         //MatchCollection event = Regex.Matches(line,eventSplitter);
 
-                        calendarEvents.Add(ParseEntry(singleEvent));
+                        calendarEvents.Add(ParseEntry(singleEvent));        //turns the dictionary of strings into a CalendarEvent object
                     }
-
-                }
-                
+                }                
             }
             return calendarEvents;
         }
@@ -103,11 +111,25 @@ namespace AddChatbotData
             
           }
 
-        static CalendarEntry ParseEntry(List<String> singleEvent)
+        static CalendarEntry ParseEntry(Dictionary<String, String> singleEvent)
         {
-            
-            CalendarEntry c1 = new CalendarEntry();
-            return c1;
+            String summary = "";
+            singleEvent.TryGetValue("SUMMARY", out summary);
+
+            String dStart = "";
+            singleEvent.TryGetValue("DSTART", out dStart);
+
+            String location = "";
+            singleEvent.TryGetValue("LOCATION", out location);
+
+            String categories = "";
+            singleEvent.TryGetValue("CATEGORIES", out categories);
+
+            String description = "";
+            singleEvent.TryGetValue("DESCRIPTION", out description);
+
+            CalendarEntry c1 = new CalendarEntry(summary, dStart, location, categories, description);
+            return c1;  
         }
     }
 }
