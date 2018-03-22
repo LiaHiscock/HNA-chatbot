@@ -14,6 +14,8 @@ namespace AddChatbotData
         static void Main(string[] args)
         {
             CSVtoDatabase();
+
+            AddDataToList();
         }
 
         static void CSVtoDatabase()
@@ -106,10 +108,12 @@ namespace AddChatbotData
         }
 
          static void AddDataToCSV()
-         { 
+         {
             // String dataFile = @".\data\data.csv";
+            var csv = new StringBuilder();
             
-          }
+                      
+         }
 
         static CalendarEntry ParseEntry(Dictionary<String, String> singleEvent)
         {
