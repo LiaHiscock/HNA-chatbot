@@ -15,7 +15,7 @@ namespace AddChatbotData
         {
             CSVtoDatabase();
 
-            AddDataToList();
+            AddDataToCSV( AddDataToList() );
         }
 
         static void CSVtoDatabase()
@@ -86,7 +86,7 @@ namespace AddChatbotData
                     {
                         //Regex eventSplitter = new Regex("([A - Z\\-] +)[;:](.+)");
 
-                        while (!line.Equals("END:VEVENT")
+                        while (!line.Equals("END:VEVENT"))
                         {
                             MatchCollection event1 = Regex.Matches(line, "([A - Z\\-] +)[;:](.+)");
 
