@@ -107,12 +107,84 @@ namespace AddChatbotData
             return calendarEvents;
         }
 
-         static void AddDataToCSV()
+         static void AddDataToCSV(List<CalendarEntry> l1)
          {
-            // String dataFile = @".\data\data.csv";
-            var csv = new StringBuilder();
-            
-                      
+            //create a streamwriter (requires a file name)
+            StreamWriter s1 = new StreamWriter(@".\data\data.csv");
+
+            //loop through list of calendar entries 
+                //for each object, make it a string that represents the row 
+                //write each string to the StreamWriter
+
+               
+            for(int i = 0; i < l1.Count; i++)
+            {
+                StringBuilder myBuilder = new StringBuilder();
+                myBuilder.Append((i + 1) + ',');
+                CalendarEntry c1 = l1[i];
+
+                String value = c1.getSummary();
+                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                {
+                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
+                }
+
+                else
+                {
+                    myBuilder.Append(value);
+                }
+                myBuilder.Append(',');
+
+                value = c1.getDStart();
+                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                {
+                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
+                }
+
+                else
+                {
+                    myBuilder.Append(value);
+                }
+                myBuilder.Append(',');
+
+                value = c1.getLocation();
+                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                {
+                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
+                }
+
+                else
+                {
+                    myBuilder.Append(value);
+                }
+                myBuilder.Append(',');
+
+                value = c1.getCategories();
+                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                {
+                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
+                }
+
+                else
+                {
+                    myBuilder.Append(value);
+                }
+                myBuilder.Append(',');
+
+                value = c1.getDescription();
+                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                {
+                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
+                }
+
+                else
+                {
+                    myBuilder.Append(value);
+                }
+
+                String row = myBuilder.ToString();
+                s1.WriteLine(row);
+            }        
          }
 
         static CalendarEntry ParseEntry(Dictionary<String, String> singleEvent)
