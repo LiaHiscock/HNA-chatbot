@@ -70,10 +70,10 @@ namespace AddChatbotData
         }
 
         static List<CalendarEntry> AddDataToList()
-        {
+        { 
             List<CalendarEntry> calendarEvents = new List<CalendarEntry>();
 
-            String iCal = @".\data\hna-calendar.ics";
+            String iCal = @"..\..\hna-calendar.ics";
             using (var reader = new StreamReader(iCal))
             {
                 while (!reader.EndOfStream)
@@ -82,13 +82,13 @@ namespace AddChatbotData
 
                     var line = reader.ReadLine().Trim();
 
-                    if (line.Equals("BEGIN:VEVENT"))
+                     if (line.Equals("BEGIN:VEVENT"))
                     {
                         //Regex eventSplitter = new Regex("([A - Z\\-] +)[;:](.+)");
 
                         while (!line.Equals("END:VEVENT"))
                         {
-                            MatchCollection event1 = Regex.Matches(line, "([A - Z\\-] +)[;:](.+)");
+                            MatchCollection event1 = Regex.Matches(line, "([A-Z\\-]+)[;:](.+)");
 
                             if (event1.Count > 1)
                             {
@@ -110,25 +110,24 @@ namespace AddChatbotData
          static void AddDataToCSV(List<CalendarEntry> l1)
          {
             //create a streamwriter (requires a file name)
-            StreamWriter s1 = new StreamWriter(@".\data\data.csv");
+            StreamWriter s1 = new StreamWriter(@"..\..\data.csv");
 
             //loop through list of calendar entries 
                 //for each object, make it a string that represents the row 
                 //write each string to the StreamWriter
-
                
             for(int i = 0; i < l1.Count; i++)
             {
                 StringBuilder myBuilder = new StringBuilder();
                 myBuilder.Append((i + 1) + ',');
                 CalendarEntry c1 = l1[i];
-
+           
                 String value = c1.getSummary();
                 if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
                 {
                     myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
                 }
-
+                 
                 else
                 {
                     myBuilder.Append(value);
