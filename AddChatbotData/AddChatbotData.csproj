@@ -50,4 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="AfterBuild">
+     <Copy SourceFiles="hna-calendar.ics" DestinationFolder="$(OutputPath)" ContinueOnError="true"/>
+     <Copy SourceFiles="data.csv" DestinationFolder="$(OutputPath)" ContinueOnError="true"/>
+  </Target>
+
 </Project>

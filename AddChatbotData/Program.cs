@@ -27,8 +27,8 @@ namespace AddChatbotData
                 builder.UserID = "hna-admin";
                 builder.Password = "CharityAndWisdom1";
                 builder.InitialCatalog = "hna-db";
-                String path = @".\data\data.csv";
-                path = Path.Combine("..","..","data.csv");
+                String path = @"data.csv";
+                //path = Path.Combine("..","..","data.csv");
 
                 using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
                 {
@@ -73,7 +73,7 @@ namespace AddChatbotData
         { 
             List<CalendarEntry> calendarEvents = new List<CalendarEntry>();
 
-            String iCal = @"..\..\hna-calendar.ics";
+            String iCal = @"hna-calendar.ics";
             using (var reader = new StreamReader(iCal))
             {
                 while (!reader.EndOfStream)
@@ -110,7 +110,7 @@ namespace AddChatbotData
          static void AddDataToCSV(List<CalendarEntry> l1)
          {
             //create a streamwriter (requires a file name)
-            StreamWriter s1 = new StreamWriter(@"..\..\data.csv");
+            StreamWriter s1 = new StreamWriter(@"data.csv");
 
             //loop through list of calendar entries 
                 //for each object, make it a string that represents the row 
