@@ -125,64 +125,81 @@ namespace AddChatbotData
                 StringBuilder myBuilder = new StringBuilder();
                 myBuilder.Append((i + 1) + ',');
                 CalendarEntry c1 = l1[i];
-           
+
                 String value = c1.getSummary();
-                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                if (value != null)
                 {
-                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
+                    if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                    {
+                        myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
+                    }
+
+                    else
+                    {
+                        myBuilder.Append(value);
+                    }
+                    myBuilder.Append(',');
                 }
-                 
-                else
-                {
-                    myBuilder.Append(value);
-                }
-                myBuilder.Append(',');
 
                 value = c1.getDStart();
-                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                if (value != null)
                 {
-                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
-                }
+                    if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                    {
+                        myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
+                    }
 
-                else
-                {
-                    myBuilder.Append(value);
-                }
-                myBuilder.Append(',');
+                    else
+                    {
+                        myBuilder.Append(value);
+                    }
 
+                    myBuilder.Append(',');
+                }
+              
                 value = c1.getLocation();
-                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                if (value != null)
                 {
-                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
-                }
+                    if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                    {
+                        myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
+                    }
 
-                else
-                {
-                    myBuilder.Append(value);
-                }
-                myBuilder.Append(',');
+                    else
+                    {
+                        myBuilder.Append(value);
+                    }
 
+                    myBuilder.Append(',');
+                }
+                
                 value = c1.getCategories();
-                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                if (value != null)
                 {
-                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
-                }
+                    if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                    {
+                        myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
+                    }
 
-                else
-                {
-                    myBuilder.Append(value);
+                    else
+                    {
+                        myBuilder.Append(value);
+                    }
+                    myBuilder.Append(',');
                 }
-                myBuilder.Append(',');
 
                 value = c1.getDescription();
-                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                if (value != null)
                 {
-                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
-                }
+                    if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                    {
+                        myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
+                    }
 
-                else
-                {
-                    myBuilder.Append(value);
+                    else
+                    {
+                        myBuilder.Append(value);
+                    }
                 }
 
                 String row = myBuilder.ToString();
