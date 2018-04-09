@@ -123,7 +123,8 @@ namespace AddChatbotData
             for(int i = 0; i < l1.Count; i++)
             {
                 StringBuilder myBuilder = new StringBuilder();
-                myBuilder.Append((i + 1) + ',');
+                myBuilder.Append((i + 1));
+                myBuilder.Append(',');
                 CalendarEntry c1 = l1[i];
 
                 String value = c1.getSummary();
