@@ -88,11 +88,15 @@ namespace AddChatbotData
 
                         while (!line.Equals("END:VEVENT"))
                         {
-                            MatchCollection event1 = Regex.Matches(line, "([A-Z\\-]+)[;:](.+)");
+                            //var event1 = Regex.Matches(line, "([A-Z\\-]+)[;:](.+)");
+                            Regex r1 = new Regex(@"([A-Z\\-]+)[;:](.+)");
+                            var m1 = r1.Match(line);
 
-                            if (event1.Count > 1)
+                            //if (event1.Count > 1)
+                            if (m1.Success)
                             {
-                                singleEvent.Add(event1[0].Value, event1[1].Value);
+                                //singleEvent.Add(event1[0].Value, event1[1].Value);
+                                singleEvent.Add(m1.Groups[1].Value, m1.Groups[2].Value);
                             }
 
                            line = reader.ReadLine();        //reads the next line
