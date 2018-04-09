@@ -50,6 +50,7 @@ namespace AddChatbotData
                             var line = reader.ReadLine().Trim();
                             var values = line.Split(',');
                             
+                            //null check made it so not all events have all the values
                             String sql = $"INSERT INTO HNAEvents(EventId, Name, DateTime, Location, Type, ExtraNotes) VALUES ('{values[0]}', '{values[1]}', '{values[2]}', '{values[3]}', '{values[4]}', '{values[5]}')";
 
                             SqlCommand insertCommand = new SqlCommand(sql, connection);
