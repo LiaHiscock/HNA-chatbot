@@ -12,10 +12,10 @@ namespace AddChatbotData
     class Program
     {
         static void Main(string[] args)
-        {
-            CSVtoDatabase();
-
+        {     
             AddDataToCSV( AddDataToList() );
+
+            CSVtoDatabase();
         }
 
         static void CSVtoDatabase()
@@ -50,6 +50,7 @@ namespace AddChatbotData
                             var line = reader.ReadLine().Trim();
                             var values = line.Split(',');
                             
+                            //null check made it so not all events have all the values
                             String sql = $"INSERT INTO HNAEvents(EventId, Name, DateTime, Location, Type, ExtraNotes) VALUES ('{values[0]}', '{values[1]}', '{values[2]}', '{values[3]}', '{values[4]}', '{values[5]}')";
 
                             SqlCommand insertCommand = new SqlCommand(sql, connection);
@@ -142,6 +143,8 @@ namespace AddChatbotData
                     myBuilder.Append(',');
                 }
 
+                //AppendValue(value);
+
                 value = c1.getDStart();
                 if (value != null)
                 {
@@ -208,13 +211,34 @@ namespace AddChatbotData
             }        
          }
 
+        //helper method 
+        static void AppendValue (String value)
+        {
+            StringBuilder myBuilder = new StringBuilder();
+
+            if (value != null)
+            {
+                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                {
+                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
+                }
+
+                else
+                {
+                    myBuilder.Append(value);
+                }
+                myBuilder.Append(',');
+            }
+
+        }
+
         static CalendarEntry ParseEntry(Dictionary<String, String> singleEvent)
         {
             String summary = "";
             singleEvent.TryGetValue("SUMMARY", out summary);
 
             String dStart = "";
-            singleEvent.TryGetValue("DSTART", out dStart);
+            singleEvent.TryGetValue("DTSTART", out dStart);
 
             String location = "";
             singleEvent.TryGetValue("LOCATION", out location);

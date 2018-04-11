@@ -3,11 +3,11 @@ namespace AddChatbotData
 {
     public class CalendarEntry
     {
-        private string summary;
-        private string dStart;
-        private string location;
-        private string categories;
-        private string description;
+        private string summary = "";
+        private string dStart = "";
+        private string location = "";
+        private string categories = "";
+        private string description = "";
 
         public CalendarEntry(string summary, string dStart,string location, string categories, string description)
         {
