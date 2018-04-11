@@ -67,6 +67,7 @@ namespace AddChatbotData
             catch (SqlException e)
             {
                 Console.WriteLine(e.ToString());
+                Console.WriteLine(e.StackTrace);
             }
         }
 
@@ -176,7 +177,13 @@ namespace AddChatbotData
 
                     myBuilder.Append(',');
                 }
-                
+
+                else
+                {
+                    myBuilder.Append("TESTLOCATION");
+                    myBuilder.Append(',');
+                }
+
                 value = c1.getCategories();
                 if (value != null)
                 {
@@ -206,6 +213,7 @@ namespace AddChatbotData
                     }
                 }
 
+               
                 String row = myBuilder.ToString();
                 s1.WriteLine(row);
             }        
