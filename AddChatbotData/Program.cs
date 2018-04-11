@@ -12,10 +12,10 @@ namespace AddChatbotData
     class Program
     {
         static void Main(string[] args)
-        {
-            CSVtoDatabase();
-
+        {     
             AddDataToCSV( AddDataToList() );
+
+            CSVtoDatabase();
         }
 
         static void CSVtoDatabase()
@@ -143,6 +143,8 @@ namespace AddChatbotData
                     myBuilder.Append(',');
                 }
 
+                //AppendValue(value);
+
                 value = c1.getDStart();
                 if (value != null)
                 {
@@ -209,13 +211,34 @@ namespace AddChatbotData
             }        
          }
 
+        //helper method 
+        static void AppendValue (String value)
+        {
+            StringBuilder myBuilder = new StringBuilder();
+
+            if (value != null)
+            {
+                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                {
+                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
+                }
+
+                else
+                {
+                    myBuilder.Append(value);
+                }
+                myBuilder.Append(',');
+            }
+
+        }
+
         static CalendarEntry ParseEntry(Dictionary<String, String> singleEvent)
         {
             String summary = "";
             singleEvent.TryGetValue("SUMMARY", out summary);
 
             String dStart = "";
-            singleEvent.TryGetValue("DSTART", out dStart);
+            singleEvent.TryGetValue("DTSTART", out dStart);
 
             String location = "";
             singleEvent.TryGetValue("LOCATION", out location);
