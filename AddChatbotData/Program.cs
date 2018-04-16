@@ -65,8 +65,8 @@ namespace AddChatbotData
                 }
             }
             catch (SqlException e)
-            {
-                Console.WriteLine(e.ToString());
+            { 
+                Console.WriteLine(e.ToString());  //{"The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.The statement has been terminated."}
                 Console.WriteLine(e.StackTrace);
             }
         }
@@ -130,39 +130,6 @@ namespace AddChatbotData
                 CalendarEntry c1 = l1[i];
 
                 String value = c1.getSummary();
-                if (value != null)
-                {
-                    if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
-                    {
-                        myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
-                    }
-
-                    else
-                    {
-                        myBuilder.Append(value);
-                    }
-                    myBuilder.Append(',');
-                }
-
-                //AppendValue(value);
-
-                value = c1.getDStart();
-                if (value != null)
-                {
-                    if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
-                    {
-                        myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
-                    }
-
-                    else
-                    {
-                        myBuilder.Append(value);
-                    }
-
-                    myBuilder.Append(',');
-                }
-              
-                value = c1.getLocation();
                 if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
                 {
                     myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
@@ -172,63 +139,75 @@ namespace AddChatbotData
                 {
                     myBuilder.Append(value);
                 }
+                myBuilder.Append(',');
 
+                //AppendValue(value, myBuilder);
+
+                value = c1.getDStart();
+                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                {
+                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
+                }
+                else
+                {
+                    myBuilder.Append(value);
+                }
+                myBuilder.Append(',');
+
+
+                value = c1.getLocation();
+                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
+                {
+                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
+                }
+                else
+                {
+                    myBuilder.Append(value);
+                }
                 myBuilder.Append(',');
                
 
-                value = c1.getCategories();
-                if (value != null)
+                value = c1.getCategories();               
+                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
                 {
-                    if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
-                    {
-                        myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
-                    }
-
-                    else
-                    {
-                        myBuilder.Append(value);
-                    }
-                    myBuilder.Append(',');
+                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
                 }
-
+                else
+                {
+                    myBuilder.Append(value);
+                }
+                myBuilder.Append(',');
+                
+       
                 value = c1.getDescription();
-                if (value != null)
+                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
                 {
-                    if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
-                    {
-                        myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
-                    }
-
-                    else
-                    {
-                        myBuilder.Append(value);
-                    }
+                   myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
                 }
-
-               
+                else
+                {
+                   myBuilder.Append(value);
+                }
+                   
                 String row = myBuilder.ToString();
                 s1.WriteLine(row);
             }        
          }
 
         //helper method 
-        static void AppendValue (String value)
-        {
-            StringBuilder myBuilder = new StringBuilder();
-
-            if (value != null)
+        static void AppendValue(String value, StringBuilder myBuilder)
+        {           
+            if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
             {
-                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
-                {
-                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
-                }
-
-                else
-                {
-                    myBuilder.Append(value);
-                }
-                myBuilder.Append(',');
+                myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
             }
+
+            else
+            {
+                myBuilder.Append(value);
+            }
+            myBuilder.Append(',');
+
 
         }
 
