@@ -163,26 +163,18 @@ namespace AddChatbotData
                 }
               
                 value = c1.getLocation();
-                if (value != null)
+                if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
                 {
-                    if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
-                    {
-                        myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
-                    }
-
-                    else
-                    {
-                        myBuilder.Append(value);
-                    }
-
-                    myBuilder.Append(',');
+                    myBuilder.AppendFormat("\"{0}\"", value.Replace("\"", "\"\""));
                 }
 
                 else
                 {
-                    myBuilder.Append("TESTLOCATION");
-                    myBuilder.Append(',');
+                    myBuilder.Append(value);
                 }
+
+                myBuilder.Append(',');
+               
 
                 value = c1.getCategories();
                 if (value != null)

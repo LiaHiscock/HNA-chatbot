@@ -5,17 +5,24 @@ namespace AddChatbotData
     {
         private string summary = "";
         private string dStart = "";
-        private string location = "";
+        private string location = "None";
         private string categories = "";
         private string description = "";
 
         public CalendarEntry(string summary, string dStart,string location, string categories, string description)
         {
             this.summary = summary;
-            this.dStart = dStart;
-            this.location = location;
+            this.dStart = DateConvert(dStart);
+            if (!string.IsNullOrEmpty(location)) {
+                this.location = location;
+            }
             this.categories = categories;
             this.description = description;
+        }
+
+        private string DateConvert(string dstart)
+        {
+            return dstart;
         }
 
         public string getSummary()
