@@ -45,10 +45,8 @@ namespace AddChatbotData
 
             //example date time format --> 20180131T070000
             string[] formats = { "yyyyMMddThhmmss", "yyyyMMdd" };
-
-            string s = "";
             DateTime dt = DateTime.Now;
-            if(DateTime.TryParseExact(s, formats, CultureInfo.CurrentCulture, DateTimeStyles.None, out dt))
+            if(DateTime.TryParseExact(dateTime, formats, CultureInfo.CurrentCulture, DateTimeStyles.None, out dt))
             {
                 
             }
