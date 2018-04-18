@@ -191,7 +191,8 @@ namespace AddChatbotData
                    
                 String row = myBuilder.ToString();
                 s1.WriteLine(row);
-            }        
+            }
+            s1.Close();
          }
 
         //helper method 
