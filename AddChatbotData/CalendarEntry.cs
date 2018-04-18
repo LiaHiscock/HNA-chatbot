@@ -44,7 +44,7 @@ namespace AddChatbotData
             String dateTime = dateSplit[1];
 
             //example date time format --> 20180131T070000
-            string[] formats = { "yyyyMMddThhmmss", "yyyyMMdd" };
+            string[] formats = { "yyyyMMddTHHmmss", "yyyyMMdd" };
             DateTime dt = DateTime.Now;
             if(DateTime.TryParseExact(dateTime, formats, CultureInfo.CurrentCulture, DateTimeStyles.None, out dt))
             {
