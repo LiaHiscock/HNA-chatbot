@@ -140,8 +140,8 @@ namespace AddChatbotData
                     myBuilder.Append(value);
                 }
                 myBuilder.Append(',');
-
-                //AppendValue(value, myBuilder);
+                
+                //AppendValue(value, ref myBuilder);
 
                 value = c1.getDStart();
                 if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
@@ -196,7 +196,7 @@ namespace AddChatbotData
          }
 
         //helper method 
-        static void AppendValue(String value, StringBuilder myBuilder)
+        static void AppendValue(String value, ref StringBuilder myBuilder)
         {           
             if (value.IndexOfAny(new char[] { '"', ',' }) != -1)
             {
@@ -208,8 +208,6 @@ namespace AddChatbotData
                 myBuilder.Append(value);
             }
             myBuilder.Append(',');
-
-
         }
 
         static CalendarEntry ParseEntry(Dictionary<String, String> singleEvent)
